@@ -70,7 +70,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void afterClassMethod() {
-		driver.close();
+		driver.quit();
 	}
 
 	@AfterSuite
