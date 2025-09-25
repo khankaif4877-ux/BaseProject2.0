@@ -55,25 +55,28 @@ public class BaseClass {
 		wdu.Implicitwait(15);
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
+		System.out.println("================================");
 
 	}
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void beforeMethod() {
 
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void afterMethod() {
 
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClassMethod() {
+	
 		driver.quit();
+		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++");
 	}
 
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void afterSuitMethod() {
 //		db.closeConnection();
 
