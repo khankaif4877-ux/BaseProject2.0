@@ -19,10 +19,17 @@ public class ClassZeroTest extends BaseClass  {
 		
 		System.out.println("ScecondScenarioTest");
 	}
+	
 	@Test(groups = "reg")
 	public void thirdScenarioTest() {
 		
 		System.out.println("thirdScenarioTest");
+	}
+
+	@Test(groups = "reg")
+	public void fourthScenarioTest() {
+		
+		System.out.println("fourthScenarioTest");
 	}
 
 
