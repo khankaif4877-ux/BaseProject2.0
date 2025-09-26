@@ -20,7 +20,7 @@ import com.ProjectName.generic.FileUtil.ExcelFileUtil;
 import com.ProjectName.generic.FileUtil.PropertyFileUtil;
 import com.ProjectName.generic.JavaUtil.ThreadSafeObject;
 import com.ProjectName.generic.WebDriverUtil.WebDriverUtil;
-@Listeners(com.ProjectName.generic.ListnerUtil.ListenerImplimentation.class)
+//@Listeners(com.ProjectName.generic.ListnerUtil.ListenerImplimentation.class)
 
 public class BaseClass {
 
@@ -54,6 +54,12 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {
 			driver = new FirefoxDriver();
+			/*
+			 ChromeOptions options = new ChromeOptions();
+			 options.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+		        // 👆 path where Brave is installed
+
+		         driver = new ChromeDriver(options);*/
 		} else if (browser.equals("edge")) {
 			driver = new EdgeDriver();
 		} else if (browser.equals("safari")) {
@@ -92,7 +98,7 @@ public class BaseClass {
 					System.out.println(" userName passWord from java code are " +userName+"  "+passWord);
 
 				
-			} 
+		} 
 		}
 
 		lp.getLoginToApp(userName, passWord);

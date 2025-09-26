@@ -56,17 +56,18 @@ public class ListenerImplimentation implements ITestListener, ISuiteListener {
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
-		test.log(Status.PASS, name + " got Pass");
+		ThreadSafeObject.getTest().log(Status.PASS, name + " got Pass");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		
 		ITestListener.super.onTestFailure(result);
-		test.log(Status.FAIL, result.getThrowable());
+		ThreadSafeObject.getTest().log(Status.FAIL, result.getThrowable());
 		TakesScreenshot ts = (TakesScreenshot) ThreadSafeObject.getDriver();
 		String screenshot = ts.getScreenshotAs(OutputType.BASE64);
-		test.addScreenCaptureFromBase64String(screenshot, name);
+		ThreadSafeObject.getTest().addScreenCaptureFromBase64String(screenshot, name);
 
 	}
 
@@ -74,7 +75,8 @@ public class ListenerImplimentation implements ITestListener, ISuiteListener {
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSkipped(result);
-		test.log(Status.SKIP, name + " got skipped");
+		ThreadSafeObject.getTest().log(Status.SKIP, name + " got skipped");
+		
 	}
 
 }
