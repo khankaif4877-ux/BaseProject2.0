@@ -55,8 +55,7 @@ public class BaseClass {
 		wdu.Implicitwait(15);
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
-		System.out.println("================================");
-
+		
 	}
 
 	@BeforeMethod(alwaysRun = true)
@@ -73,8 +72,7 @@ public class BaseClass {
 	public void afterClassMethod() {
 	
 		driver.quit();
-		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++");
-	}
+		}
 
 	@AfterSuite(alwaysRun = true)
 	public void afterSuitMethod() {

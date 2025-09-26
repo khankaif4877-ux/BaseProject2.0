@@ -108,17 +108,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="module03.ClassOneTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="module01.ClassTwoTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="module03.ClassZeroTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="module02.ClassZeroTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,17 +123,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="module02.ClassZeroTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="module02.ClassTwoTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="module03.ClassOneTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="module03.ClassZeroTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="module02.ClassOneTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="module01.ClassTwoTest" class="method navigator-link" hash-for-method="firstScenarioTest">firstScenarioTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -206,7 +206,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">module02.ClassZeroTest</span>
+              <span class="class-name">module03.ClassZeroTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -221,7 +221,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">module03.ClassZeroTest</span>
+              <span class="class-name">module02.ClassZeroTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -266,7 +266,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">module02.ClassOneTest</span>
+              <span class="class-name">module01.ClassTwoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -281,7 +281,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">module01.ClassTwoTest</span>
+              <span class="class-name">module02.ClassOneTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -313,7 +313,7 @@
       &lt;include name=&quot;smoke&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;module02.ClassOneTest&quot;/&gt;
       &lt;class name=&quot;module02.ClassZeroTest&quot;/&gt;
@@ -374,45 +374,45 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'firstScenarioTest')
-data.setCell(0, 2, 'module02.ClassOneTest')
-data.setCell(0, 3, 7);
+data.setCell(0, 2, 'module01.ClassZeroTest')
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'firstScenarioTest')
-data.setCell(1, 2, 'module01.ClassZeroTest')
-data.setCell(1, 3, 3);
+data.setCell(1, 2, 'module03.ClassZeroTest')
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'firstScenarioTest')
-data.setCell(2, 2, 'module03.ClassOneTest')
-data.setCell(2, 3, 2);
+data.setCell(2, 2, 'module02.ClassZeroTest')
+data.setCell(2, 3, 9);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'firstScenarioTest')
-data.setCell(3, 2, 'module01.ClassTwoTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 2, 'module03.ClassOneTest')
+data.setCell(3, 3, 9);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'firstScenarioTest')
-data.setCell(4, 2, 'module03.ClassTwoTest')
-data.setCell(4, 3, 2);
+data.setCell(4, 2, 'module02.ClassTwoTest')
+data.setCell(4, 3, 7);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'firstScenarioTest')
-data.setCell(5, 2, 'module01.ClassOneTest')
-data.setCell(5, 3, 2);
+data.setCell(5, 2, 'module03.ClassTwoTest')
+data.setCell(5, 3, 6);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'firstScenarioTest')
-data.setCell(6, 2, 'module02.ClassZeroTest')
-data.setCell(6, 3, 2);
+data.setCell(6, 2, 'module02.ClassOneTest')
+data.setCell(6, 3, 3);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'firstScenarioTest')
-data.setCell(7, 2, 'module02.ClassTwoTest')
+data.setCell(7, 2, 'module01.ClassOneTest')
 data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'firstScenarioTest')
-data.setCell(8, 2, 'module03.ClassZeroTest')
+data.setCell(8, 2, 'module01.ClassTwoTest')
 data.setCell(8, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 ms</span>
+              <span class="suite-total-time">Total running time: 57 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -558,216 +558,273 @@ return data;
                 <span class="method-name">beforeSuitMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">44 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">2057 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">2058 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">2071 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">2074 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">2314 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">3788 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">3788 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">3792 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">3792 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module03.ClassOneTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">3966 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">5298 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">5299 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">5304 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">5305 ms</span>
-              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassMethod</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassMethod</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module01.ClassZeroTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">5545 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">7211 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">7211 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">7216 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">7216 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module02.ClassTwoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">7444 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">8878 ms</span>
+                <span class="method-start">3592 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3592 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">3592 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">3593 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">3594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">3596 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3607 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3609 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">3611 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">3613 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">3613 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">3614 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassTwoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4124 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">8878 ms</span>
+                <span class="method-start">4127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">8881 ms</span>
+                <span class="method-start">4137 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClassMethod</span>
-                <span class="method-start">8883 ms</span>
+                <span class="method-start">4139 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module02.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">4288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">4289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">4296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">4300 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module01.ClassTwoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">9107 ms</span>
+                <span class="method-start">5010 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">10617 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">10618 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">10621 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">10621 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module03.ClassZeroTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">10795 ms</span>
+                <span class="method-start">5282 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">12314 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">12315 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">12318 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">12318 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module03.ClassTwoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">12473 ms</span>
+                <span class="method-start">5298 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">13869 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">13869 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">13872 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClassMethod</span>
-                <span class="method-start">13873 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module01.ClassOneTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassMethod</span>
-                <span class="method-start">14036 ms</span>
+                <span class="method-start">5299 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassTwoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">15404 ms</span>
+                <span class="method-start">7579 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">firstScenarioTest</span>
-                <span class="method-start">15405 ms</span>
+                <span class="method-start">7580 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">15410 ms</span>
+                <span class="method-start">7583 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClassMethod</span>
-                <span class="method-start">15410 ms</span>
+                <span class="method-start">7584 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module01.ClassOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">7760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">7767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">7769 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassZeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">8006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">8020 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">module03.ClassTwoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">firstScenarioTest</span>
+                <span class="method-start">8055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassMethod</span>
+                <span class="method-start">8067 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">module02.ClassOneTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuitMethod</span>
-                <span class="method-start">15624 ms</span>
+                <span class="method-start">8924 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
