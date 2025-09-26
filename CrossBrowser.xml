@@ -3,7 +3,7 @@
 <suite name="Suite" thread-count="3" parallel="tests">
 <listeners><listener class-name="com.ProjectName.generic.ListnerUtil.ListenerImplimentation"/>
 </listeners>
-	<test name="edgeSuit"   thread-count="4" parallel="classes">
+	<test name="edgeSuit">
 		<parameter name="browser" value="edge"></parameter>
 		<classes>
 			<class name="module02.ClassOneTest" />
@@ -19,7 +19,7 @@
 	</test>
 
 
-	<test name="firefoxSuite"  thread-count="4" parallel="classes">
+	<test name="firefoxSuite">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="module02.ClassOneTest" />
@@ -35,7 +35,7 @@
 	</test>
 
 
-	<test name="chromeSuite"  thread-count="4" parallel="classes">
+	<test name="chromeSuite">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="module02.ClassOneTest" />
