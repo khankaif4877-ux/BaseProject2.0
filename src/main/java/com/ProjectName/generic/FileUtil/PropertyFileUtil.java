@@ -12,12 +12,18 @@ public class PropertyFileUtil {
 	
 	
 
-	public String getProperty(String key) throws IOException {
+	public String getProperty(String key)  {
+		String value = null;
+	try {
 		FileInputStream fIS = new FileInputStream(DefaultPath);
-       Properties prop = new Properties();
-       prop.load(fIS);
-       String value = prop.getProperty(key);
-       fIS.close();
+	       Properties prop = new Properties();
+	       prop.load(fIS);
+	       value = prop.getProperty(key);
+	       fIS.close();
+	} catch (Exception e) {
+		// TODO: handle exception
+		e.printStackTrace();
+	}
        return value;
 	}
 
@@ -25,7 +31,8 @@ public class PropertyFileUtil {
 	
 	
 
-	public void setProperty(String key,String value) throws IOException {
+	public void setProperty(String key,String value) {
+	try {
 		FileInputStream fIS = new FileInputStream(DefaultPath);
 	       Properties prop = new Properties();
 	       prop.load(fIS);
@@ -33,6 +40,10 @@ public class PropertyFileUtil {
 	       FileOutputStream fos = new FileOutputStream(DefaultPath);
 	       prop.store(fos, "Updated by PropertyFileUtil");
 	       fos.close();
+	} catch (Exception e) {
+		// TODO: handle exception
+		e.printStackTrace();
+	}
 	       
 	}
 	

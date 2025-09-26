@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="module01.ClassOneTest">
+        <methods>
+          <include name="afterSuitMethod"/>
+          <include name="beforeClassMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuitMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="ScecondScenarioTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- module01.ClassOneTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

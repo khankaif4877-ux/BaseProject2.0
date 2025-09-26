@@ -1,228 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="19" total="28" passed="9" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-25T17:25:33 IST" name="Suite" finished-at="2025-09-25T17:25:41 IST" duration-ms="8805">
+  <suite started-at="2025-09-26T14:50:28 IST" name="Default suite" finished-at="2025-09-26T14:50:33 IST" duration-ms="5535">
     <groups>
       <group name="smoke">
-        <method signature="ClassOneTest.firstScenarioTest()[pri:0, instance:module01.ClassOneTest@fbd1f6]" name="firstScenarioTest" class="module01.ClassOneTest"/>
-        <method signature="ClassTwoTest.firstScenarioTest()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" name="firstScenarioTest" class="module01.ClassTwoTest"/>
-        <method signature="ClassZeroTest.firstScenarioTest()[pri:0, instance:module01.ClassZeroTest@367ffa75]" name="firstScenarioTest" class="module01.ClassZeroTest"/>
-        <method signature="ClassOneTest.firstScenarioTest()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" name="firstScenarioTest" class="module02.ClassOneTest"/>
-        <method signature="ClassTwoTest.firstScenarioTest()[pri:0, instance:module02.ClassTwoTest@49438269]" name="firstScenarioTest" class="module02.ClassTwoTest"/>
-        <method signature="ClassZeroTest.firstScenarioTest()[pri:0, instance:module02.ClassZeroTest@40005471]" name="firstScenarioTest" class="module02.ClassZeroTest"/>
-        <method signature="ClassOneTest.firstScenarioTest()[pri:0, instance:module03.ClassOneTest@2cd76f31]" name="firstScenarioTest" class="module03.ClassOneTest"/>
-        <method signature="ClassTwoTest.firstScenarioTest()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" name="firstScenarioTest" class="module03.ClassTwoTest"/>
-        <method signature="ClassZeroTest.firstScenarioTest()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" name="firstScenarioTest" class="module03.ClassZeroTest"/>
+        <method signature="ClassOneTest.firstScenarioTest()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" name="firstScenarioTest" class="module01.ClassOneTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-09-25T17:25:33 IST" name="Test" finished-at="2025-09-25T17:25:41 IST" duration-ms="8805">
-      <class name="module02.ClassZeroTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module02.ClassZeroTest@40005471]" started-at="2025-09-25T17:25:33 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="3523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module02.ClassZeroTest@40005471]" started-at="2025-09-25T17:25:36 IST" name="beforeMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module02.ClassZeroTest@40005471]" started-at="2025-09-25T17:25:36 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:36 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module02.ClassZeroTest@40005471]" started-at="2025-09-25T17:25:36 IST" name="afterMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module02.ClassZeroTest@40005471]" started-at="2025-09-25T17:25:36 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:38 IST" duration-ms="1668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module02.ClassZeroTest -->
-      <class name="module01.ClassTwoTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" started-at="2025-09-25T17:25:38 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="2568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" started-at="2025-09-25T17:25:40 IST" name="beforeMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" started-at="2025-09-25T17:25:40 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" started-at="2025-09-25T17:25:40 IST" name="afterMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module01.ClassTwoTest@ba2f4ec]" started-at="2025-09-25T17:25:40 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="1141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module01.ClassTwoTest -->
-      <class name="module02.ClassTwoTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module02.ClassTwoTest@49438269]" started-at="2025-09-25T17:25:33 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="4075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module02.ClassTwoTest@49438269]" started-at="2025-09-25T17:25:37 IST" name="beforeMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module02.ClassTwoTest@49438269]" started-at="2025-09-25T17:25:37 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:37 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module02.ClassTwoTest@49438269]" started-at="2025-09-25T17:25:37 IST" name="afterMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module02.ClassTwoTest@49438269]" started-at="2025-09-25T17:25:37 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:38 IST" duration-ms="1158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module02.ClassTwoTest -->
-      <class name="module01.ClassZeroTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module01.ClassZeroTest@367ffa75]" started-at="2025-09-25T17:25:33 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="3525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module01.ClassZeroTest@367ffa75]" started-at="2025-09-25T17:25:36 IST" name="beforeMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module01.ClassZeroTest@367ffa75]" started-at="2025-09-25T17:25:36 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:36 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module01.ClassZeroTest@367ffa75]" started-at="2025-09-25T17:25:36 IST" name="afterMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module01.ClassZeroTest@367ffa75]" started-at="2025-09-25T17:25:36 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:38 IST" duration-ms="1396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module01.ClassZeroTest -->
-      <class name="module02.ClassOneTest">
-        <test-method is-config="true" signature="beforeSuitMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:33 IST" name="beforeSuitMethod" finished-at="2025-09-25T17:25:33 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-09-26T14:50:28 IST" name="Default test" finished-at="2025-09-26T14:50:33 IST" duration-ms="5535">
+      <class name="module01.ClassOneTest">
+        <test-method is-config="true" signature="beforeSuitMethod()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:28 IST" name="beforeSuitMethod" finished-at="2025-09-26T14:50:28 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuitMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:33 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="4240" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod(org.testng.xml.XmlTest)[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:28 IST" name="beforeClassMethod" finished-at="2025-09-26T14:50:29 IST" duration-ms="1764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@6b1a77ac]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:37 IST" name="beforeMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:29 IST" name="beforeMethod" finished-at="2025-09-26T14:50:31 IST" duration-ms="1821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:37 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:37 IST" duration-ms="3" status="PASS">
+        <test-method signature="firstScenarioTest()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:31 IST" name="firstScenarioTest" finished-at="2025-09-26T14:50:31 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:37 IST" name="afterMethod" finished-at="2025-09-25T17:25:37 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:31 IST" name="afterMethod" finished-at="2025-09-26T14:50:33 IST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:37 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:38 IST" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:33 IST" name="afterClassMethod" finished-at="2025-09-26T14:50:33 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
-        <test-method is-config="true" signature="afterSuitMethod()[pri:0, instance:module02.ClassOneTest@4b2bac3f]" started-at="2025-09-25T17:25:42 IST" name="afterSuitMethod" finished-at="2025-09-25T17:25:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuitMethod()[pri:0, instance:module01.ClassOneTest@6ed3ccb2]" started-at="2025-09-26T14:50:33 IST" name="afterSuitMethod" finished-at="2025-09-26T14:50:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuitMethod -->
-      </class> <!-- module02.ClassOneTest -->
-      <class name="module03.ClassOneTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module03.ClassOneTest@2cd76f31]" started-at="2025-09-25T17:25:33 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="3523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module03.ClassOneTest@2cd76f31]" started-at="2025-09-25T17:25:36 IST" name="beforeMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module03.ClassOneTest@2cd76f31]" started-at="2025-09-25T17:25:36 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:36 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module03.ClassOneTest@2cd76f31]" started-at="2025-09-25T17:25:36 IST" name="afterMethod" finished-at="2025-09-25T17:25:36 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module03.ClassOneTest@2cd76f31]" started-at="2025-09-25T17:25:36 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:38 IST" duration-ms="1684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module03.ClassOneTest -->
-      <class name="module03.ClassTwoTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" started-at="2025-09-25T17:25:38 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="2754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" started-at="2025-09-25T17:25:41 IST" name="beforeMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" started-at="2025-09-25T17:25:41 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:41 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" started-at="2025-09-25T17:25:41 IST" name="afterMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module03.ClassTwoTest@55fe41ea]" started-at="2025-09-25T17:25:41 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module03.ClassTwoTest -->
-      <class name="module01.ClassOneTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module01.ClassOneTest@fbd1f6]" started-at="2025-09-25T17:25:38 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="2456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module01.ClassOneTest@fbd1f6]" started-at="2025-09-25T17:25:40 IST" name="beforeMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module01.ClassOneTest@fbd1f6]" started-at="2025-09-25T17:25:40 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:40 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module01.ClassOneTest@fbd1f6]" started-at="2025-09-25T17:25:40 IST" name="afterMethod" finished-at="2025-09-25T17:25:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module01.ClassOneTest@fbd1f6]" started-at="2025-09-25T17:25:40 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
       </class> <!-- module01.ClassOneTest -->
-      <class name="module03.ClassZeroTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" started-at="2025-09-25T17:25:38 IST" name="beforeClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="2721" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" started-at="2025-09-25T17:25:41 IST" name="beforeMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="firstScenarioTest()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" started-at="2025-09-25T17:25:41 IST" name="firstScenarioTest" finished-at="2025-09-25T17:25:41 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstScenarioTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" started-at="2025-09-25T17:25:41 IST" name="afterMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:module03.ClassZeroTest@1c1bbc4e]" started-at="2025-09-25T17:25:41 IST" name="afterClassMethod" finished-at="2025-09-25T17:25:41 IST" duration-ms="607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- module03.ClassZeroTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

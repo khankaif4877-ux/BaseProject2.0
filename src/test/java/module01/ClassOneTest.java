@@ -1,7 +1,6 @@
 package module01;
 
 import org.testng.annotations.Test;
-
 import com.ProjectName.generic.BaseClassUtil.BaseClass;
 
 public class ClassOneTest extends BaseClass {
