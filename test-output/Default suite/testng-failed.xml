@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module01.ClassOneTest">
+      <class name="module01.PracticePage">
         <methods>
-          <include name="afterSuitMethod"/>
-          <include name="beforeClassMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuitMethod"/>
-          <include name="afterClassMethod"/>
-          <include name="ScecondScenarioTest"/>
-          <include name="afterMethod"/>
+          <include name="testScriptOne"/>
         </methods>
-      </class> <!-- module01.ClassOneTest -->
+      </class> <!-- module01.PracticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
