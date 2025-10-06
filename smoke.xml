@@ -6,6 +6,7 @@
 <include name="smoke">
 
 </include>
+
 </run>
 </groups>
   <test name="Test">

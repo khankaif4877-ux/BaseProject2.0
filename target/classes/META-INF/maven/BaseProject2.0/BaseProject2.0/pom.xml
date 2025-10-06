@@ -6,7 +6,6 @@
   <name>BaseProject2.0</name>
   
   
-  
     <dependencies>
   
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
