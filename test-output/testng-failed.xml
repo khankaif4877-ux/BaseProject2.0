@@ -5,7 +5,7 @@
     <classes>
       <class name="module01.PracticePage">
         <methods>
-          <include name="testScriptOne"/>
+          <include name="testScriptOne" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- module01.PracticePage -->
     </classes>

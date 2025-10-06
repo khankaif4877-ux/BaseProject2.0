@@ -1,124 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-29T16:07:53 IST" name="Default suite" finished-at="2025-09-29T16:07:53 IST" duration-ms="81">
+  <suite started-at="2025-10-04T12:47:22 IST" name="Default suite" finished-at="2025-10-04T12:47:22 IST" duration-ms="57">
     <groups>
     </groups>
-    <test started-at="2025-09-29T16:07:53 IST" name="Default test" finished-at="2025-09-29T16:07:53 IST" duration-ms="81">
+    <test started-at="2025-10-04T12:47:22 IST" name="Default test" finished-at="2025-10-04T12:47:22 IST" duration-ms="57">
       <class name="module01.PracticePage">
-        <test-method signature="testScriptOne(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptOne" data-provider="loginData" finished-at="2025-09-29T16:07:53 IST" duration-ms="10" status="PASS">
+        <test-method signature="testScriptOne(java.lang.String)[pri:0, instance:module01.PracticePage@206a70ef]" started-at="2025-10-04T12:47:22 IST" name="testScriptOne" data-provider="loginData03" finished-at="2025-10-04T12:47:22 IST" duration-ms="10" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[kaif@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan@123]]>
+                <![CDATA[hyy]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.ProjectName.generic.JavaUtil.ThreadSafeObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.ProjectName.generic.JavaUtil.ThreadSafeObject.getTest()" is null
+at module01.PracticePage.testScriptOne(PracticePage.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptOne -->
-        <test-method signature="testScriptOne(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptOne" data-provider="loginData" finished-at="2025-09-29T16:07:53 IST" duration-ms="2" status="PASS">
+        <test-method signature="testScriptOne(java.lang.String)[pri:0, instance:module01.PracticePage@206a70ef]" started-at="2025-10-04T12:47:22 IST" name="testScriptOne" data-provider="loginData03" finished-at="2025-10-04T12:47:22 IST" duration-ms="2" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sadik@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan@321]]>
+                <![CDATA[hello]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.ProjectName.generic.JavaUtil.ThreadSafeObject.getTest()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.ProjectName.generic.JavaUtil.ThreadSafeObject.getTest()" is null
+at module01.PracticePage.testScriptOne(PracticePage.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptOne -->
-        <test-method signature="testScriptOne(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptOne" data-provider="loginData" finished-at="2025-09-29T16:07:53 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[parvez@123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Malik@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScriptOne -->
-        <test-method signature="testScriptTwo(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptTwo" data-provider="loginData02" finished-at="2025-09-29T16:07:53 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Deepak]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Infigyn]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScriptTwo -->
-        <test-method signature="testScriptTwo(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptTwo" data-provider="loginData02" finished-at="2025-09-29T16:07:53 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[facebook]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScriptTwo -->
-        <test-method signature="testScriptTwo(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptTwo" data-provider="loginData02" finished-at="2025-09-29T16:07:53 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pankaj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[relince]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScriptTwo -->
-        <test-method signature="testScriptTwo(java.lang.String,java.lang.String)[pri:0, instance:module01.PracticePage@6c6cb480]" started-at="2025-09-29T16:07:53 IST" name="testScriptTwo" data-provider="loginData02" finished-at="2025-09-29T16:07:53 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[miller]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[whatsapp]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScriptTwo -->
       </class> <!-- module01.PracticePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
