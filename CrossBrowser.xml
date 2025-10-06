@@ -15,6 +15,7 @@
 			<class name="module03.ClassZeroTest" />
 			<class name="module03.ClassTwoTest" />
 			<class name="module01.ClassOneTest" />
+			
 		</classes>
 	</test>
 
