@@ -30,7 +30,7 @@ public class ClassZeroTest extends BaseClass  {
 	public void fourthScenarioTest() {
 		
 		System.out.println("fourthScenarioTest");
-			System.out.println("==================================================");
+			System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 	}
 
 
